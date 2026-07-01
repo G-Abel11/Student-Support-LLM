@@ -1,0 +1,28 @@
+# Virtual environment — never commit this
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Logs — optional, you may want to include a sample
+backend/logs/*.log
+
+# Environment variables
+.env
+
+# VSCode settings
+.vscode/
+
+# Node modules — React dependencies, never commit
+frontend/node_modules/
+
+# Vite build output
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db 
